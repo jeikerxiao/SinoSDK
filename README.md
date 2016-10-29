@@ -1,0 +1,2 @@
+# SinoSDK
+Sinocare BLE SDK
