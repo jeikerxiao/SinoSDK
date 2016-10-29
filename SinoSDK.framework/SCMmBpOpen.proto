@@ -1,0 +1,28 @@
+// type=1,手环类 package mmbp_open;
+message BaseResponse
+{
+optional int32 errcode = 1;
+optional string errmsg = 2;
+}
+message WristbandRequest
+{
+message StepDataItem
+{
+optional uint32 Step = 1;
+optional uint32 Timestamp = 2;
+optional uint32 TimeStampRtcYear = 3;
+optional uint32 TimeStampRtcMonth = 4;
+optional uint32 TimeStampRtcDay = 5;
+optional uint32 TimeStampRtcHour = 6;
+optional uint32 TimeStampRtcMinute = 7;
+optional uint32 TimeStampRtcSecond = 8;
+}
+repeated StepDataItem StepData = 1;
+optional bytes ExtData = 2;
+}
+message WristBandResponse
+{
+optional BaseResponse BaseResp = 1;
+}
+message WristBandPush
+{ }
