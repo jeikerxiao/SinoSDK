@@ -28,14 +28,6 @@
 		<data>
 		5oQzKeYcDUj7GAaB+Dupms6ASj0=
 		</data>
-		<key>SCMmBp.proto</key>
-		<data>
-		Fj/+ulExNj28dtm0Gh80jnsfeHs=
-		</data>
-		<key>SCMmBpOpen.proto</key>
-		<data>
-		OOrb3DSSsLVR/bEGk2g/2KB9HB0=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -92,28 +84,6 @@
 			<key>hash2</key>
 			<data>
 			UdyLf4QNwljsItGuTR3qWDBGOyGrjX/56dYkLrpRaNU=
-			</data>
-		</dict>
-		<key>SCMmBp.proto</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Fj/+ulExNj28dtm0Gh80jnsfeHs=
-			</data>
-			<key>hash2</key>
-			<data>
-			9tidb0sPwAmqhm8w80gtpNwRKlb1+Bw60iSb2x+taAI=
-			</data>
-		</dict>
-		<key>SCMmBpOpen.proto</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OOrb3DSSsLVR/bEGk2g/2KB9HB0=
-			</data>
-			<key>hash2</key>
-			<data>
-			Ja2wTOpNIoDkm/j4cbDKhhjZ75i9WAE0tPeBSfRxqVU=
 			</data>
 		</dict>
 	</dict>
