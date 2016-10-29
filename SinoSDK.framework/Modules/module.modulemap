@@ -1,6 +1,0 @@
-framework module SinoSDK {
-  umbrella header "SinoSDK.h"
-
-  export *
-  module * { export * }
-}
