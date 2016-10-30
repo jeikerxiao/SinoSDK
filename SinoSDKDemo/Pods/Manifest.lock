@@ -1,0 +1,40 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - LKDBHelper (2.4):
+    - FMDB
+  - ProtocolBuffers (1.9.11)
+  - SinoSDK (1.0.6):
+    - AFNetworking (~> 3.0.4)
+    - LKDBHelper (~> 2.4)
+    - ProtocolBuffers (~> 1.9.11)
+
+DEPENDENCIES:
+  - SinoSDK
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  LKDBHelper: 1162892ca4ffc28029070d6f40f57b333133f1c4
+  ProtocolBuffers: d509225eb2ea43d9582a59e94348fcf86e2abd65
+  SinoSDK: 708e1ddfa426228403cc13754274f15116137390
+
+PODFILE CHECKSUM: bea40d85e7ec0589c1b5e8f6f6ad96d926cb5b78
+
+COCOAPODS: 1.1.0
