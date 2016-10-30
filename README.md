@@ -1,3 +1,9 @@
+
+![](logo.png)
+</br>
+![](passing.svg)
+![](pod.svg)
+
 # SinoSDK
 
     SinoSDK 是三诺生物传感股份有限公司的蓝牙连接的SDK.
