@@ -1,8 +1,8 @@
 
 ![](logo.png)
 </br>
-![](passing.svg)
-![](pod.svg)
+[![passing](https://github.com/jeikerxiao/SinoSDK/passing.svg)]
+[![pod](https://github.com/jeikerxiao/SinoSDK/pod.svg)]
 
 # SinoSDK
 
