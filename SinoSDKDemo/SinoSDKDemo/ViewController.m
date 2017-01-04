@@ -31,7 +31,7 @@
     
     [SCBleInterface sharedInterface].delegate = self;
     [SCBleInterface sharedInterface].dataSource = self;
-    //[SCBleInterface sharedInterface].isWL_1 = YES;
+    [SCBleInterface sharedInterface].isWL_1 = YES;
     [[SCBleInterface sharedInterface] setAccessKey:SC_ACCESSKEY secretKey:SC_SECRETKEY];
     
     self.title = @"管理工具";
