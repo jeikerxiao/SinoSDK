@@ -8,12 +8,14 @@
 # 如何安装
 
 ##1.使用CocoaPods安装
+
 推荐使用这种安装方式。
-step1:添加下面一条语句到Podfile:
+
+###step1:添加下面一条语句到Podfile:
 ````
 pod 'SinoSDK','~> 1.0.6'
 ````
-step2:导入.h文件
+###step2:导入.h文件
 ````objc
 #import "SinoSDK/SinoSDK.h"
 ````
