@@ -36,9 +36,6 @@
 
 /**
  *  初始化accessKey和secrectKey，在调用其他接口前确保先调用该接口，设置该值获取权限，否则无法调用其他接口
- *
- *
- *
  */
 - (void)setAccessKey:(NSString *)accessKey secretKey:(NSString *)secretKey;
 
@@ -51,6 +48,11 @@
 
  */
 - (NSInteger)scan:(NSTimeInterval)sec;
+
+/**
+ 停止扫描
+ */
+- (void)stopScan;
 
 /*!
  连接sinocare设备，扫描后连接设备
@@ -100,6 +102,11 @@
 
  */
 - (void)clearHistoryData:(void(^)(NSInteger rv))block;
+
+/**
+ 设置校正码
+ */
+- (void)setAdjustmentCode:(NSInteger)code block:(void(^)(NSInteger rv))block;
 
 /**
  矫正时间，矫正到分钟

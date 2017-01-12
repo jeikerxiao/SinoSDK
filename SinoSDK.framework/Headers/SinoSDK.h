@@ -2,8 +2,8 @@
 //  SinoSDK.h
 //  SinoSDK
 //
-//  Created by xiao on 16/10/29.
-//  Copyright © 2016年 xiao. All rights reserved.
+//  Created by xiao on 17/1/12.
+//  Copyright © 2017年 jeikerxiao. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

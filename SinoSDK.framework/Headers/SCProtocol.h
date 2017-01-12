@@ -18,6 +18,7 @@
 #define SC_RV_E1 0x01 //E1错误
 #define SC_RV_E2 0x02 //E2错误
 #define SC_RV_E3 0x03 //E3错误
+#define SC_RV_E6 0x06 //E6错误
 #define SC_RV_HI 0x04 //HI错误，测试结果过高
 #define SC_RV_LO 0x05 //LO错误，测试结果过低
 
