@@ -1,0 +1,12 @@
+platform:ios,'8.0'
+
+target:'SDKDemo-v2' do
+
+# sdk v2.0.0 增加安稳+血糖仪支持
+  pod 'SinoSDK', '~> 2.0.0'
+
+# demo 控件
+  pod 'YCXMenu', '~> 0.0.11'
+  pod 'XXPickerView', '~> 1.0.0'
+
+end

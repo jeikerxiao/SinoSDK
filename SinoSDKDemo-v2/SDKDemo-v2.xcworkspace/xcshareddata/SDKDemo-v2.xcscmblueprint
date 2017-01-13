@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "95e8374b-c1bf-e149-88e0-ddc69a96b5d1++1404",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "95e8374b-c1bf-e149-88e0-ddc69a96b5d1++1404" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "95e8374b-c1bf-e149-88e0-ddc69a96b5d1++1404" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AE8B1B3F-E044-4A79-9B87-EF31614370B1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "95e8374b-c1bf-e149-88e0-ddc69a96b5d1++1404" : "6.iOS_SDK\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SDKDemo-v2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SinoSDKv2\/SDKDemo-v2(testPods)\/SDKDemo-v2.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.100.14:8443\/svn\/wx",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95e8374b-c1bf-e149-88e0-ddc69a96b5d1++1404"
+    }
+  ]
+}

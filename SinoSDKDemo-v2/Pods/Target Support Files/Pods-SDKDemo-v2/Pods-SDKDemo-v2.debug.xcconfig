@@ -1,0 +1,10 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/SinoSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/LKDBHelper" "${PODS_ROOT}/Headers/Public/ProtocolBuffers" "${PODS_ROOT}/Headers/Public/SinoSDK" "${PODS_ROOT}/Headers/Public/XXPickerView" "${PODS_ROOT}/Headers/Public/YCXMenu"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking" "$PODS_CONFIGURATION_BUILD_DIR/FMDB" "$PODS_CONFIGURATION_BUILD_DIR/LKDBHelper" "$PODS_CONFIGURATION_BUILD_DIR/ProtocolBuffers" "$PODS_CONFIGURATION_BUILD_DIR/XXPickerView" "$PODS_CONFIGURATION_BUILD_DIR/YCXMenu"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/FMDB" -isystem "${PODS_ROOT}/Headers/Public/LKDBHelper" -isystem "${PODS_ROOT}/Headers/Public/ProtocolBuffers" -isystem "${PODS_ROOT}/Headers/Public/SinoSDK" -isystem "${PODS_ROOT}/Headers/Public/XXPickerView" -isystem "${PODS_ROOT}/Headers/Public/YCXMenu"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"FMDB" -l"LKDBHelper" -l"ProtocolBuffers" -l"XXPickerView" -l"YCXMenu" -l"sqlite3" -framework "CoreFoundation" -framework "CoreGraphics" -framework "Foundation" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SinoSDK" -framework "SystemConfiguration" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

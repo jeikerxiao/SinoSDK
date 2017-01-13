@@ -1,0 +1,7 @@
+platform:ios,'8.0'
+
+target:SinoSDKDemo do
+    
+  pod 'SinoSDK’,’~>1.0.6’
+  
+end
