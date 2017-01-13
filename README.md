@@ -42,13 +42,13 @@ pod 'SinoSDK','~> 2.0.0'
 
 ##1.设置代理和数据源
 
-```
+```objc
 @interface MainViewController ()<SCBLEInterfaceDelegate, SCBLEInterfaceDataSource>
 ```
 
 ##2.初始化SDK配置
 
-```
+```objc
 - (void)initSinoSDK {
     
     [SCBleInterface sharedInterface].delegate = self;
@@ -71,13 +71,13 @@ pod 'SinoSDK','~> 2.0.0'
 
 ##3.扫描
 
-```
+```objc
 NSInteger rv = [[SCBleInterface sharedInterface] scan:8];
 ```
 
 ##4.连接
 
-```
+```objc
 NSInteger rv = [[SCBleInterface sharedInterface] connectedWithDevice:peripheral];
 ```
 
