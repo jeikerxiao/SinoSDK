@@ -9,8 +9,8 @@
 #import "ViewController.h"
 #import "MainViewController.h"
 
-#define SC_ACCESSKEY @"9f734e8e857acb75d472daa70c988c9c"
-#define SC_SECRETKEY @"KZp5e689Z9Iatftyn1lt1YlqNupW8QPLQKk8JNPkxEr3laH3PT"
+#define SC_ACCESSKEY @"888"
+#define SC_SECRETKEY @"888"
 
 @interface ViewController ()
 
