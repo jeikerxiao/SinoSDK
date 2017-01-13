@@ -51,6 +51,11 @@
 
 }
 
+- (void)dealloc {
+    // 防止回调出错
+    [SCBleInterface sharedInterface].delegate = nil;
+}
+
 - (void)setNavigationButton {
     //创建导航栏右上方的按钮
     UIBarButtonItem *rightMaxBt = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch
