@@ -23,6 +23,23 @@ pod 'SinoSDK','~> 2.0.0'
 ##2.手动安装
 不推荐。
 
+###step1:添加SinoSDK.framework到工程中。
+
+###step2:添加下开源项目到工程中：
+
+|----|----|
+|第三方库名|版本|
+|AFNetworking|3.0.4|
+|FMDB|2.6.2|
+|LKDBHelper|2.4|
+|ProtocolBuffers|1.9.11|
+
+###step3:导入.h文件
+````objc
+#import "SinoSDK/SinoSDK.h"
+````
+
+
 # 如何使用
 
 请查看SinoSDKDemo.
