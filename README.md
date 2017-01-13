@@ -40,7 +40,48 @@ pod 'SinoSDK','~> 2.0.0'
 
 # 如何使用
 
-请查看SinoSDKDemo-v2.
+##1.设置代理和数据源
+
+```
+@interface MainViewController ()<SCBLEInterfaceDelegate, SCBLEInterfaceDataSource>
+```
+
+##2.初始化SDK配置
+
+```
+- (void)initSinoSDK {
+    
+    [SCBleInterface sharedInterface].delegate = self;
+    [SCBleInterface sharedInterface].dataSource = self;
+    
+    self.WL_1 = YES;
+    
+    if (self.isWL_1) {
+        NSLog(@"是直连版WL_1血糖仪");
+        // 默认isWL_1 = NO;
+        [SCBleInterface sharedInterface].isWL_1 = YES;
+    }else{
+        NSLog(@"是微信版血糖仪");
+        [SCBleInterface sharedInterface].isWL_1 = NO;
+    }
+    
+    [[SCBleInterface sharedInterface] setAccessKey:self.accessKey secretKey:self.secretKey];
+}
+```
+
+##3.扫描
+
+```
+NSInteger rv = [[SCBleInterface sharedInterface] scan:8];
+```
+
+##4.连接
+
+```
+NSInteger rv = [[SCBleInterface sharedInterface] connectedWithDevice:peripheral];
+```
+
+详细使用请查看SinoSDKDemo-v2.
 
 # 兼容性
 - 本项目和示例程序是使用Xcode8开发
