@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SinoSDK"
-  s.version          = "2.0.0"
+  s.version          = "2.0.1"
   s.summary          = "A Sinocare SDK used on iOS."
   s.description      = <<-DESC
                        It is a Sinocare BLE SDK used on iOS, which implement by Objective-C.
@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.vendored_frameworks = 'SinoSDK.framework'
   s.frameworks = 'Foundation','UIKit'
-  s.dependency 'AFNetworking', '~> 3.0.4'
   s.dependency 'LKDBHelper', '~> 2.4'
   s.dependency 'ProtocolBuffers', '~> 1.9.11'
 
