@@ -27,7 +27,6 @@ pod 'SinoSDK','~> 2.0.1'
 
 ###step2:添加下开源项目到工程中：
 
-- AFNetworking v3.0.4
 - FMDB v2.6.2
 - LKDBHelper v2.4
 - ProtocolBuffers v1.9.11
