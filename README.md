@@ -7,31 +7,31 @@
     
 # 如何安装
 
-##1.使用CocoaPods安装
+## 1.使用CocoaPods安装
 
 推荐使用这种安装方式。
 
-###step1:添加下面一条语句到Podfile:
+### step1:添加下面一条语句到Podfile:
 ````
 pod 'SinoSDK','~> 2.0.1'
 ````
-###step2:导入.h文件
+### step2:导入.h文件
 ````objc
 #import "SinoSDK/SinoSDK.h"
 ````
 
-##2.手动安装
+## 2.手动安装
 不推荐。
 
-###step1:添加SinoSDK.framework到工程中。
+### step1:添加SinoSDK.framework到工程中。
 
-###step2:添加下开源项目到工程中：
+### step2:添加下开源项目到工程中：
 
 - FMDB v2.6.2
 - LKDBHelper v2.4
 - ProtocolBuffers v1.9.11
 
-###step3:导入.h文件
+### step3:导入.h文件
 ````objc
 #import "SinoSDK/SinoSDK.h"
 ````
@@ -39,13 +39,13 @@ pod 'SinoSDK','~> 2.0.1'
 
 # 如何使用
 
-##1.设置代理和数据源
+## 1.设置代理和数据源
 
 ```objc
 @interface MainViewController ()<SCBLEInterfaceDelegate, SCBLEInterfaceDataSource>
 ```
 
-##2.初始化SDK配置
+## 2.初始化SDK配置
 
 ```objc
 - (void)initSinoSDK {
@@ -68,13 +68,13 @@ pod 'SinoSDK','~> 2.0.1'
 }
 ```
 
-##3.扫描
+## 3.扫描
 
 ```objc
 NSInteger rv = [[SCBleInterface sharedInterface] scan:8];
 ```
 
-##4.连接
+## 4.连接
 
 ```objc
 NSInteger rv = [[SCBleInterface sharedInterface] connectedWithDevice:peripheral];
@@ -87,18 +87,18 @@ NSInteger rv = [[SCBleInterface sharedInterface] connectedWithDevice:peripheral]
 
 # 更新日志
 
-##v2.0.1 (2017/06/15)
+## v2.0.1 (2017/06/15)
 
 - 移除 AFNetworking 3.0 版本依赖
 - 优化性能
 
-##v2.0.0 (2017/01/13)
+## v2.0.0 (2017/01/13)
 - SinoSDK v2.0.0 增加安稳+血糖仪支持。
 - SinoSDKDemo-v2 Demo全新改版，对程序猿更友好。
 
-##v1.0.6 (2017/01/04)
+## v1.0.6 (2017/01/04)
 - 更新SinoSDKDemo(默认打开直连版开关).
 
-##v1.0.6 (2016/10/30)
+## v1.0.6 (2016/10/30)
 - 添加CocoaPods支持
 - 增加SinoSDKDemo.
