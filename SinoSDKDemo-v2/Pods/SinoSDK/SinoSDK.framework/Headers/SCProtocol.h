@@ -31,24 +31,24 @@
  **/
 
 typedef NS_ENUM(NSInteger, SC_BLE_STATUS){
-    SC_BLE_STATUS_UNKNOWN,//未知错误
-    SC_BLE_STATUS_POWERON,//蓝牙打开
-    SC_BLE_STATUS_POWEROFF,//蓝牙关闭
-    SC_BLE_STATUS_NOT_SUPPORT,//不支持蓝牙4.0
-    SC_BLE_STATUS_CONNECTED,//蓝牙连接上设备（只是连接上，未获得通讯权限）
-    SC_BLE_STATUS_DISCONNECTED,//蓝牙连接断开
-    SC_BLE_STATUS_VERIFING,//正在进行验证
-    SC_BLE_STATUS_VERIFY_OK,//权限验证通过，可以进行通讯了
-    SC_BLE_STATUS_VERIFY_ERROR //权限验证失败
+    SC_BLE_STATUS_UNKNOWN,      //未知错误
+    SC_BLE_STATUS_POWERON,      //蓝牙打开
+    SC_BLE_STATUS_POWEROFF,     //蓝牙关闭
+    SC_BLE_STATUS_NOT_SUPPORT,  //不支持蓝牙4.0
+    SC_BLE_STATUS_CONNECTED,    //蓝牙连接上设备（只是连接上，未获得通讯权限）
+    SC_BLE_STATUS_DISCONNECTED, //蓝牙连接断开
+    SC_BLE_STATUS_VERIFING,     //正在进行验证
+    SC_BLE_STATUS_VERIFY_OK,    //权限验证通过，可以进行通讯了
+    SC_BLE_STATUS_VERIFY_ERROR  //权限验证失败
 };
 
 /*!
  @brief 与sinocare设备通信状态枚举
  */
 typedef NS_ENUM(NSInteger, SC_DEVICE_STATUS){
-    SC_DEVICE_STATUS_FLASH = 1,//滴血灯闪烁
+    SC_DEVICE_STATUS_FLASH = 1, //滴血灯闪烁
     SC_DEVICE_STATUS_BEGIN_TEST,//滴血完成开始测试
-    SC_DEVICE_STATUS_SHUT_DOWN//仪器关机
+    SC_DEVICE_STATUS_SHUT_DOWN  //仪器关机
     //...
 };
 
