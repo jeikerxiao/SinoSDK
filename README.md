@@ -13,7 +13,7 @@
 
 ###step1:添加下面一条语句到Podfile:
 ````
-pod 'SinoSDK','~> 2.0.0'
+pod 'SinoSDK','~> 2.0.1'
 ````
 ###step2:导入.h文件
 ````objc
@@ -27,7 +27,6 @@ pod 'SinoSDK','~> 2.0.0'
 
 ###step2:添加下开源项目到工程中：
 
-- AFNetworking v3.0.4
 - FMDB v2.6.2
 - LKDBHelper v2.4
 - ProtocolBuffers v1.9.11
@@ -87,6 +86,12 @@ NSInteger rv = [[SCBleInterface sharedInterface] connectedWithDevice:peripheral]
 - 本项目和示例程序是使用Xcode8开发
 
 # 更新日志
+
+##v2.0.1 (2017/06/15)
+
+- 移除 AFNetworking 3.0 版本依赖
+- 优化性能
+
 ##v2.0.0 (2017/01/13)
 - SinoSDK v2.0.0 增加安稳+血糖仪支持。
 - SinoSDKDemo-v2 Demo全新改版，对程序猿更友好。
