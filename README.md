@@ -87,6 +87,10 @@ NSInteger rv = [[SCBleInterface sharedInterface] connectedWithDevice:peripheral]
 
 # 更新日志
 
+## v2.0.2 (2017/06/26)
+
+- 支持IVT蓝牙血糖仪
+
 ## v2.0.1 (2017/06/15)
 
 - 移除 AFNetworking 3.0 版本依赖
