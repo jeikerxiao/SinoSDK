@@ -42,7 +42,7 @@ pod 'SinoSDK','~> 2.0.3'
 ## 1.设置代理和数据源
 
 ```objc
-@interface MainViewController ()<SCBLEInterfaceDelegate, SCBLEInterfaceDataSource>
+@interface MainViewController ()<SCBLEInterfaceDelegate, SCBLEInterfaceDataDelegate>
 ```
 
 ## 2.初始化SDK配置
@@ -51,7 +51,7 @@ pod 'SinoSDK','~> 2.0.3'
 - (void)initSinoSDK {
     
     [SCBleInterface sharedInterface].delegate = self;
-    [SCBleInterface sharedInterface].dataSource = self;
+    [SCBleInterface sharedInterface].dataDelegate = self;
     
     self.WL_1 = YES;
     
@@ -89,6 +89,9 @@ NSInteger rv = [[SCBleInterface sharedInterface] connectedWithDevice:peripheral]
 
 ## v2.0.3 (2017/07/14)
 
+- SCBLEInterfaceDataSource 更名为 SCBLEInterfaceDataDelegate.
+- [SCBleInterface sharedInterface].dataSource 更名为 [SCBleInterface sharedInterface].dataDelegate
+- 代码命名更符合功能特性
 - 优化性能
 
 ## v2.0.2 (2017/06/26)
