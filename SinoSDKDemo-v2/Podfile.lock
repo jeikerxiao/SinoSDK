@@ -2,30 +2,30 @@ PODS:
   - FMDB (2.7.2):
     - FMDB/standard (= 2.7.2)
   - FMDB/standard (2.7.2)
-  - LKDBHelper (2.4.3):
-    - LKDBHelper/standard (= 2.4.3)
-  - LKDBHelper/standard (2.4.3):
+  - LKDBHelper (2.4.4):
+    - LKDBHelper/standard (= 2.4.4)
+  - LKDBHelper/standard (2.4.4):
     - FMDB
   - ProtocolBuffers (1.9.11)
-  - SinoSDK (2.0.2):
+  - SinoSDK (2.0.3):
     - LKDBHelper (~> 2.4)
     - ProtocolBuffers (~> 1.9.11)
   - XXPickerView (1.0.0)
   - YCXMenu (0.0.11)
 
 DEPENDENCIES:
-  - SinoSDK
+  - SinoSDK (~> 2.0.3)
   - XXPickerView (~> 1.0.0)
   - YCXMenu (~> 0.0.11)
 
 SPEC CHECKSUMS:
   FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
-  LKDBHelper: dc4a629efc8855cc19f61737ee4d9cfdf098ec97
+  LKDBHelper: cf467ff69aaf1e13bd4964aca3a79881d54c6d14
   ProtocolBuffers: d509225eb2ea43d9582a59e94348fcf86e2abd65
-  SinoSDK: 35417d01ff96c8ef661e9ae69480d821ec5463c4
+  SinoSDK: d7c67d6e11f255a34ff3bec4913df38199332f7a
   XXPickerView: 46ec42fa0f257e340dfb93160574398e4a3d0f2d
   YCXMenu: 6003bcd20d8ac72e3eb3c442c97ed21948c6dc1f
 
-PODFILE CHECKSUM: ff5a8a56defdd03851296b1797f64915cffb3584
+PODFILE CHECKSUM: f9f9ddb762df35030664bcdfbb02750dbd1b743d
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.1.0

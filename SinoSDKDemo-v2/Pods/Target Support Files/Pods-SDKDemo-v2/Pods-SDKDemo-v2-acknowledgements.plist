@@ -42,6 +42,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.</string>
+			<key>License</key>
+			<string>MIT</string>
 			<key>Title</key>
 			<string>FMDB</string>
 			<key>Type</key>
@@ -68,6 +70,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.</string>
+			<key>License</key>
+			<string>MIT</string>
 			<key>Title</key>
 			<string>LKDBHelper</string>
 			<key>Type</key>
@@ -90,6 +94,8 @@ limitations under the License.
 Copyright 2008 Google Inc.
 
 </string>
+			<key>License</key>
+			<string>Apache License, Version 2.0</string>
 			<key>Title</key>
 			<string>ProtocolBuffers</string>
 			<key>Type</key>
@@ -119,6 +125,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </string>
+			<key>License</key>
+			<string>MIT</string>
 			<key>Title</key>
 			<string>SinoSDK</string>
 			<key>Type</key>
@@ -148,6 +156,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </string>
+			<key>License</key>
+			<string>MIT</string>
 			<key>Title</key>
 			<string>XXPickerView</string>
 			<key>Type</key>
@@ -178,6 +188,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 </string>
+			<key>License</key>
+			<string>MIT</string>
 			<key>Title</key>
 			<string>YCXMenu</string>
 			<key>Type</key>

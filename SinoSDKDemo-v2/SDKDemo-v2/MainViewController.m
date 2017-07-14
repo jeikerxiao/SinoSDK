@@ -18,7 +18,7 @@
 //#import "SCProtocol.h"
 #import "SinoSDK/SinoSDK.h"
 
-@interface MainViewController ()<SCBLEInterfaceDelegate, SCBLEInterfaceDataSource,XXPickerViewDelegate>
+@interface MainViewController ()<SCBLEInterfaceDelegate, SCBLEInterfaceDataDelegate,XXPickerViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextView *logTextView;
 
@@ -92,7 +92,7 @@
 - (void)initSinoSDK {
     
     [SCBleInterface sharedInterface].delegate = self;
-    [SCBleInterface sharedInterface].dataSource = self;
+    [SCBleInterface sharedInterface].dataDelegate = self;
     
     self.WL_1 = NO;
     
