@@ -13,7 +13,7 @@
 
 ### step1:添加下面一条语句到Podfile:
 ````
-pod 'SinoSDK','~> 2.0.1'
+pod 'SinoSDK','~> 2.0.2'
 ````
 ### step2:导入.h文件
 ````objc
