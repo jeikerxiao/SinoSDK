@@ -21,7 +21,7 @@
 /*! 设置delegate，蓝牙扫描连接调用*/
 @property (nonatomic, assign)id<SCBLEInterfaceDelegate> delegate;
 /*! 设置dataSource，设备主动发调用*/
-@property (nonatomic, assign)id<SCBLEInterfaceDataSource> dataSource;
+@property (nonatomic, assign)id<SCBLEInterfaceDataDelegate> dataDelegate;
 /**
  是否是直连WL-1的设备，默认否
  */
