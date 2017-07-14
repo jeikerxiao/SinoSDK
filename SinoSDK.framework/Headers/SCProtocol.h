@@ -81,7 +81,7 @@ typedef NS_ENUM(NSInteger, SC_DEVICE_STATUS){
 @end
 
 /// 该协议是蓝牙设备主动发的数据
-@protocol SCBLEInterfaceDataSource <NSObject>
+@protocol SCBLEInterfaceDataDelegate <NSObject>
 
 /*!
  仪器返回错误码
@@ -97,6 +97,13 @@ typedef NS_ENUM(NSInteger, SC_DEVICE_STATUS){
  仪器返回测试结果
  */
 - (void)didRecieveTestResult:(SCBloodSugerModel *)bloodSuger;
+
+@optional
+/**
+ 仪器自动发的历史数据，微信协议
+ @return YES 不再重发 NO 忽略，以后继续自动发
+ */
+- (BOOL)didRecieveHistoryResult:(SCBloodSugerModel *)bloodSuger;
 
 @end
 
