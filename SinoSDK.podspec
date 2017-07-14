@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SinoSDK"
-  s.version          = "2.0.2"
+  s.version          = "2.0.3"
   s.summary          = "A Sinocare SDK used on iOS."
   s.description      = <<-DESC
                        It is a Sinocare BLE SDK used on iOS, which implement by Objective-C.
