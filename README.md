@@ -13,7 +13,7 @@
 
 ### step1:添加下面一条语句到Podfile:
 ````
-pod 'SinoSDK','~> 2.0.3'
+pod 'SinoSDK','~> 2.0.4'
 ````
 ### step2:导入.h文件
 ````objc
@@ -86,6 +86,10 @@ NSInteger rv = [[SCBleInterface sharedInterface] connectedWithDevice:peripheral]
 - 本项目和示例程序是使用Xcode8开发
 
 # 更新日志
+
+## v2.0.4 (2017/07/20)
+
+- 修复bug（使用v2.0.3的用户，建议更新）
 
 ## v2.0.3 (2017/07/14)
 
