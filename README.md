@@ -1,9 +1,9 @@
 
 ![](logo.png)
 
-# SinoSDK
+# SinoSDK(iOS)
 
-    SinoSDK 是三诺生物传感股份有限公司的蓝牙血糖仪连接的SDK.
+    SinoSDK 是三诺生物传感股份有限公司的蓝牙血糖仪连接的iOS版SDK.
     
 # 如何安装
 
