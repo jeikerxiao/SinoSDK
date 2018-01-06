@@ -13,7 +13,7 @@
 
 ### step1:添加下面一条语句到Podfile:
 ````
-pod 'SinoSDK','~> 2.0.4'
+pod 'SinoSDK','~> 2.0.5'
 ````
 ### step2:导入.h文件
 ````objc
@@ -87,6 +87,10 @@ NSInteger rv = [[SCBleInterface sharedInterface] connectedWithDevice:peripheral]
 
 # 更新日志
 
+## v2.0.5 (2018/01/06)
+
+- 修复bug （推荐更新：解决iOS8以下扫描设备crash问题）
+
 ## v2.0.4 (2017/07/20)
 
 - 修复bug（使用v2.0.3的用户，建议更新）
@@ -117,3 +121,5 @@ NSInteger rv = [[SCBleInterface sharedInterface] connectedWithDevice:peripheral]
 ## v1.0.6 (2016/10/30)
 - 添加CocoaPods支持
 - 增加SinoSDKDemo.
+
+
